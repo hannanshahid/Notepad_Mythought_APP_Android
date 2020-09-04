@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Thoughts</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //colours code
+    <string name="blue_colour">#3d90e3</string>
+    <string name="red_colour">#f54242</string>
+    <string name="orange_colour">#e08d34</string>
+    <string name="pink_colour">#e34ba6</string>
+    <string name="yellow_colour">#e0c134</string>
+    <string name="green_colour">#34e056</string>
+
+
+</resources>

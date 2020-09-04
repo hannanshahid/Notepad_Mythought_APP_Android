@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".fragments.Add_note_fragment">
+
+
+    <TextView
+        android:id="@+id/textViewheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Edit Note"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/_25ssp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewedit"
+        android:layout_width="@dimen/_270sdp"
+        android:layout_height="@dimen/_380sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:elevation="5dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.444">
+
+
+        <TextView
+            android:id="@+id/textViewdatetimeedit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_150sdp"
+            android:layout_marginTop="20dp"
+            android:text="9:10 PM 26-JAN-2020"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_10ssp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextnoteedit"
+            android:layout_width="@dimen/_255sdp"
+            android:layout_height="@dimen/_307sdp"
+            android:layout_marginStart="@dimen/_7sdp"
+            android:layout_marginTop="@dimen/_33sdp"
+            android:layout_marginEnd="@dimen/_7sdp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:gravity="top"
+            android:inputType="textMultiLine|textCapSentences"
+
+            android:padding="@dimen/_7sdp"
+            android:textColor="@android:color/white"
+
+            android:textCursorDrawable="@null" />
+
+        <Button
+            android:id="@+id/buttoncolour1_blueedit"
+            android:layout_width="@dimen/_23sdp"
+            android:layout_height="@dimen/_23sdp"
+            android:layout_marginStart="@dimen/_18sdp"
+            android:layout_marginTop="@dimen/_345sdp"
+            android:background="@drawable/colour1_blue"
+            android:elevation="2dp" />
+
+        <Button
+            android:id="@+id/buttoncolour2_rededit"
+            android:layout_width="@dimen/_23sdp"
+            android:layout_height="@dimen/_23sdp"
+            android:layout_marginStart="@dimen/_63sdp"
+            android:layout_marginTop="@dimen/_345sdp"
+            android:background="@drawable/buttoncolour2_red"
+            android:elevation="3dp" />
+
+        <Button
+            android:id="@+id/buttoncolour3_yellowedit"
+            android:layout_width="@dimen/_23sdp"
+            android:layout_height="@dimen/_23sdp"
+            android:layout_marginStart="@dimen/_108sdp"
+            android:layout_marginTop="@dimen/_345sdp"
+            android:background="@drawable/buttoncolour4_yellow"
+            android:elevation="3dp" />
+
+        <Button
+            android:id="@+id/buttoncolour4_pinkedit"
+            android:layout_width="@dimen/_23sdp"
+            android:layout_height="@dimen/_23sdp"
+            android:layout_marginStart="@dimen/_153sdp"
+            android:layout_marginTop="@dimen/_345sdp"
+            android:background="@drawable/buttoncolour3_pink"
+            android:elevation="3dp" />
+
+        <Button
+            android:id="@+id/buttoncolour5_orangeedit"
+            android:layout_width="@dimen/_23sdp"
+            android:layout_height="@dimen/_23sdp"
+            android:layout_marginStart="@dimen/_193sdp"
+            android:layout_marginTop="@dimen/_345sdp"
+            android:background="@drawable/buttoncolour5_orange"
+            android:elevation="3dp" />
+
+        <Button
+            android:id="@+id/buttoncolour6_greenedit"
+            android:layout_width="@dimen/_23sdp"
+            android:layout_height="@dimen/_23sdp"
+            android:layout_marginStart="@dimen/_233sdp"
+            android:layout_marginTop="@dimen/_345sdp"
+            android:background="@drawable/buttoncolour6_green"
+            android:elevation="3dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/buttonsaveedit"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/button_background"
+        android:text="Save"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/cardViewedit"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttondiscardedit"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/button_background"
+        android:text="Discard"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.143"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardViewedit"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

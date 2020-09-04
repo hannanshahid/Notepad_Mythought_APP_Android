@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:layout_marginLeft="@dimen/_3sdp"
+    android:layout_marginRight="@dimen/_3sdp"
+    android:layout_marginBottom="@dimen/_3sdp"
+    android:layout_marginTop="@dimen/_3sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#525291"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="5dp"
+    >
+
+    <TextView
+        android:id="@+id/textViewnote"
+        android:layout_width="389dp"
+        android:layout_height="76dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+
+        android:text="Fall Detected"
+
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+    <ImageView
+        android:id="@+id/imageViewdelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="246dp"
+        android:layout_marginTop="105dp"
+        app:srcCompat="@drawable/delete_logo" />
+    <ImageView
+        android:id="@+id/imageViewcopy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="105dp"
+        app:srcCompat="@drawable/copy_logo" />
+
+    <ImageView
+        android:id="@+id/imageViewwrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="365dp"
+        android:layout_marginTop="105dp"
+        app:srcCompat="@drawable/edit_logo" />
+
+    <ImageView
+        android:id="@+id/imageViewshare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="325dp"
+        android:layout_marginTop="105dp"
+        app:srcCompat="@drawable/share_logo" />
+
+    <TextView
+        android:id="@+id/textViewdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="110dp"
+        android:text="Created at: 26 JAN, 2020 10:45 Am"
+        android:textColor="@android:color/white"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+
+</androidx.cardview.widget.CardView>
